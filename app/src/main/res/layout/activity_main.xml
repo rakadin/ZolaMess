@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient">
+<!--    tools:ignore="MissingClass">-->
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="ZolaMess"
+        android:textColor="#247FC6"
+        android:textSize="55sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <com.google.android.material.textfield.TextInputLayout android:id="@+id/error1"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        app:hintEnabled="true"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="5dp"
+            android:ems="10"
+            android:hint="Tài khoản Email"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp"
+            tools:ignore="TouchTargetSizeCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout android:id="@+id/error2"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        app:hintEnabled="true"
+        app:passwordToggleEnabled="true"
+        app:errorEnabled="true">
+        <com.google.android.material.textfield.TextInputEditText
+            android:textColorHint="#111"
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:ems="10"
+            android:hint="Mật khẩu"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp" >
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:background="@color/purple_500"
+            android:textColor="@color/white"
+            android:id="@+id/button"
+            android:layout_width="148dp"
+            android:layout_gravity="center"
+            android:layout_height="49dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:text="Đăng nhập"
+            android:textSize="18dp"/>
+    <TableRow>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_marginLeft="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chưa có tài khoản ? "
+            android:layout_marginTop="12dp"
+            android:textColor="#EA2525"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Đăng ký"
+            android:layout_marginLeft="6dp"
+            android:textColor="#FFFFFF"/>
+    </TableRow>
+<!--    <TextView-->
+<!--        android:id="@+id/textView8"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_marginTop="12dp"-->
+<!--        android:text="-Hoặc-"-->
+<!--        android:layout_marginLeft="6dp"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textSize="20dp"/>-->
+<!--    <TableRow android:layout_gravity="center">-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_marginLeft="100dp"-->
+<!--            android:layout_marginTop="12dp"-->
+<!--            android:layout_marginRight="0dp"-->
+<!--            android:src="@drawable/facebook" />-->
+
+<!--        <ImageView-->
+<!--            android:layout_marginTop="12dp"-->
+<!--            android:layout_marginLeft="0dp"-->
+<!--            android:src="@drawable/googleicon" />-->
+<!--    </TableRow>-->
+
+
+</TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

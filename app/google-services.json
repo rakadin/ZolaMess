@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "38161168301",
+    "firebase_url": "https://zamessenger-a2d99-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "zamessenger-a2d99",
+    "storage_bucket": "zamessenger-a2d99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38161168301:android:854b10f3a1300b8c5e1324",
+        "android_client_info": {
+          "package_name": "com.example.zolamess"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38161168301-v9lou5or15rm15pmi2fdu1r8tr2fqnfq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zolamess",
+            "certificate_hash": "7d0d6e9ff75eaf0ea44f7f53d521f41695b71bd2"
+          }
+        },
+        {
+          "client_id": "38161168301-95ru1sla3nosopfk7dv6mtlpgf39hem1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVHNXcRiwaDIZ2UqNw9xKgiUBA8CiOlng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38161168301-95ru1sla3nosopfk7dv6mtlpgf39hem1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
